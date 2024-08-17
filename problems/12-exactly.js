@@ -28,12 +28,12 @@ console.log(result4); // true
 *******************************************************************************/
 
 function exactly(array, num, cb) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = exactly;
 } catch(e) {
-  return null;
+  console.error('failed to export exactly:', e);
 }

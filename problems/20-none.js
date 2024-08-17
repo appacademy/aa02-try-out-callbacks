@@ -29,12 +29,12 @@ console.log(result4);   // false
 *******************************************************************************/
 
 function none(array, cb) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = none;
 } catch (e) {
-  return null;
+  console.error('failed to export none:', e);
 }

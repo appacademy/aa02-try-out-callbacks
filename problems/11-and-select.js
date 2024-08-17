@@ -29,12 +29,12 @@ console.log(andSelect(['ants', 'APPLES', 'ART', 'BACON', 'arm'], isUpperCase,  s
 *******************************************************************************/
 
 function andSelect(array, cb1, cb2) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = andSelect;
 } catch(e) {
-  return null;
+  console.error('failed to export andSelect:', e);
 }

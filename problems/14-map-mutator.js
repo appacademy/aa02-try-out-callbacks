@@ -19,12 +19,12 @@ console.log(arr2); // [ 0, 9, 20 ]
 *******************************************************************************/
 
 function mapMutator(array, cb) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = mapMutator;
 } catch(e) {
-  return null;
+  console.error('failed to export mapMutator:', e);
 }

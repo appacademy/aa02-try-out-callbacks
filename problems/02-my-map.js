@@ -17,12 +17,12 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 *******************************************************************************/
 
 function myMap(array, cb) {
-    // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
-    module.exports = myMap;
-} catch(e) {
-    return null;
+  module.exports = myMap;
+} catch (e) {
+  console.error('failed to export myMap:', e);
 }

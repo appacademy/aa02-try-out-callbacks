@@ -32,12 +32,12 @@ console.log(suffixCipher('incremental progress is very instrumental', cipher2));
 *******************************************************************************/
 
 function suffixCipher(sentence, cipher) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = suffixCipher;
-} catch(e) {
-  return null;
+} catch (e) {
+  console.error('failed to export suffixCipher:', e);
 }

@@ -31,12 +31,12 @@ console.log(result3); // 8
 *******************************************************************************/
 
 function mySimpleReduce(array, cb) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = mySimpleReduce;
 } catch (e) {
-  return null;
+  console.error('failed to export mySimpleReduce:', e);
 }

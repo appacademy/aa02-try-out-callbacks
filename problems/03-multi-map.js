@@ -22,12 +22,12 @@ console.log(result3); // hi!!!!!
 *******************************************************************************/
 
 function multiMap(val, n, cb) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = multiMap;
 } catch(e) {
-  return null;
+  console.error('failed to export multiMap:', e);
 }

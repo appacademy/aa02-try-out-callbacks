@@ -19,12 +19,12 @@ console.log(greaterCallbackValue(9, Math.sqrt, doubler));   // 18
 *******************************************************************************/
 
 function greaterCallbackValue(val, cb1, cb2) {
-  // Your code here 
+  // Your code here
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = greaterCallbackValue;
 } catch (e) {
-  return null;
+  console.error('failed to export greaterCallbackValue:', e);
 }
